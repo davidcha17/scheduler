@@ -25,6 +25,7 @@ class CreateTimeSlots < ActiveRecord::Migration[6.0]
       t.integer :22
       t.integer :23
       t.integer :24
+      t.integer :schedule_time_id
 
       t.timestamps
     end

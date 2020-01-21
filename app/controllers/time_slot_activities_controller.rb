@@ -1,2 +1,0 @@
-class TimeSlotActivitiesController < ApplicationController
-end
