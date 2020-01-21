@@ -1,0 +1,2 @@
+class TimeSlotActivity < ApplicationRecord
+end

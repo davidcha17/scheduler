@@ -1,0 +1,2 @@
+class DayTimeSlotsController < ApplicationController
+end

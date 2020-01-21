@@ -1,0 +1,2 @@
+class ScheduleDay < ApplicationRecord
+end
