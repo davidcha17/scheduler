@@ -6,8 +6,6 @@ class User < ApplicationRecord
     has_many :followers, through: :following_users
 
     has_many :schedules
-    has_many :events, through: :schdeules 
 
-    has_many :schedules
-    has_many :hobbies, through: :schdeules 
+    has_many :schedule_days, through: :schedules
 end

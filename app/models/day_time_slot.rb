@@ -1,2 +1,0 @@
-class DayTimeSlot < ApplicationRecord
-end

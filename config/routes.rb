@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :schedule_times
   resources :follows
   resources :time_slots
   resources :activities

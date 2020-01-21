@@ -1,2 +1,0 @@
-class TimeSlotActivity < ApplicationRecord
-end
