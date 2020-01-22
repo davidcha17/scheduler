@@ -92,10 +92,7 @@ ActiveRecord::Schema.define(version: 2020_01_21_195324) do
     t.integer "age"
     t.string "pw"
     t.string "img_url"
-<<<<<<< HEAD
-=======
     t.string "email"
->>>>>>> 45e223f04be554c401850645b13475daf9be1e7f
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

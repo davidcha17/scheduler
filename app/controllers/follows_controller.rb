@@ -28,5 +28,4 @@ def find_follow
   @follow = Follow.find(params[:id])
 end
 
-
 end
