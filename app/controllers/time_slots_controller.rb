@@ -1,4 +1,5 @@
 class TimeSlotsController < ApplicationController
+    
     def index
         @timeslots = TimeSlot.all
     end 

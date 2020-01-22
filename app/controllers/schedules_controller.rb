@@ -1,4 +1,5 @@
 class SchedulesController < ApplicationController
+ 
     def index
         @schdedules = Schedule.all
     end 

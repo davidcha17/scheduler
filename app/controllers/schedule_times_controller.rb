@@ -1,4 +1,5 @@
 class ScheduleTimesController < ApplicationController
+
     def index
         @scheduletimes = ScheduleTime.all
     end 
