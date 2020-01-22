@@ -28,7 +28,7 @@ class SchedulesController < ApplicationController
         schdedule = Schedule.find(params[:id])
         schdedule.destroy
     end
-
+ 
     private
 
     def find_schedule

@@ -28,7 +28,7 @@ class ScheduleTimesController < ApplicationController
         scheduletime = ScheduleTime.find(params[:id])
         user.destroy
     end
-
+ 
     private
 
     def find_schedule_time

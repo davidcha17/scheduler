@@ -28,7 +28,7 @@ class TimeSlotsController < ApplicationController
         timeslot = TimeSlot.find(params[:id])
         timeslot.destroy
     end
-
+ 
     private
 
     def find_timeslot

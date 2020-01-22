@@ -29,7 +29,7 @@ class UsersController < ApplicationController
         user = User.find(params[:id])
         user.destroy
     end
-
+ 
     private
 
     def find_user
