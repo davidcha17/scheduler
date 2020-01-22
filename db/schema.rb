@@ -70,7 +70,7 @@ ActiveRecord::Schema.define(version: 2020_01_21_195324) do
     t.integer "ten"
     t.integer "eleven"
     t.integer "twelve"
-    t.integer "thirteen"
+    t.integer "thirteen" 
     t.integer "fourteen"
     t.integer "fifteen"
     t.integer "sixteen"
