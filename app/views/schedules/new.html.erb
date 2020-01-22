@@ -1,8 +1,8 @@
 <h1>Create New Schedule</h1>
 
-<%=form_for @schedule.each do |f|%>
+<%=form_for @schedule.schedule_days.each do |f|%>
 <%=f.label "Select a Day"%>
-
+<%=f.collection_select :day_id, @days, :id, :name%>
 <br/>
 <%=%>
 

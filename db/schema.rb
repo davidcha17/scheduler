@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_21_195324) do
+ActiveRecord::Schema.define(version: 2020_01_21_215106) do
 
   create_table "activities", force: :cascade do |t|
     t.string "category"
@@ -70,7 +70,7 @@ ActiveRecord::Schema.define(version: 2020_01_21_195324) do
     t.integer "ten"
     t.integer "eleven"
     t.integer "twelve"
-    t.integer "thirteen" 
+    t.integer "thirteen"
     t.integer "fourteen"
     t.integer "fifteen"
     t.integer "sixteen"
@@ -92,7 +92,6 @@ ActiveRecord::Schema.define(version: 2020_01_21_195324) do
     t.integer "age"
     t.string "pw"
     t.string "img_url"
-    t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
